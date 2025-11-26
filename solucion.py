@@ -9,8 +9,8 @@ def reloj_arena(m: int, s: str) -> str:
     # Parte superior
     # Parte superior
     for i in range(m//2 + 1):
-        print(" " * i + n * (m - 2*i))
+        print(" " * i + s * (m - 2*i))
     # Parte inferior
     for i in range(m//2 - 1, -1, -1):
-        print(" " * i + n * (m - 2*i))
+        print(" " * i + s * (m - 2*i))
     
