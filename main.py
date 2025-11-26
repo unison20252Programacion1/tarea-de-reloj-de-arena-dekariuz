@@ -35,6 +35,6 @@ def main():
         pass
 
     # TODO: llamar a la función reloj_de_arena con los parámetros m y s
-    reloj_de_arena(m, s)
+    reloj_arena(m, s)
  if __name__ == "__main__":
      main()
