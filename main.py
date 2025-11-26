@@ -1,7 +1,7 @@
 # Completa las validaciones y llama a la función
 
 import sys
-from solucion import [NOMBRE_DE_LA_FUNCION]
+from solucion import [reloj_de_arena]
 
 def main():
     """
@@ -31,9 +31,10 @@ def main():
         pass
     except ValueError:
         # TODO: imprimir "Error: La altura debe ser un numero entero" y salir
+         print("Error: La altura debe ser un numero entero")
         pass
 
-    # TODO: llamar a la función triangulo_simetrico con los parámetros m y s
-
-if __name__ == "__main__":
-    main()
+    # TODO: llamar a la función reloj_de_arena con los parámetros m y s
+    reloj_de_arena(m, s)
+ if __name__ == "__main__":
+     main()
