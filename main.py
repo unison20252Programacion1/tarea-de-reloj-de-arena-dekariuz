@@ -31,7 +31,7 @@ def main():
         pass
     except ValueError:
         # TODO: imprimir "Error: La altura debe ser un numero entero" y salir
-         print("Error: La altura debe ser un numero entero")
+        print("Error: La altura debe ser un numero entero")
         pass
 
     # TODO: llamar a la función reloj_de_arena con los parámetros m y s
