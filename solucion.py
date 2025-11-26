@@ -7,10 +7,10 @@ def reloj_arena(m: int, s: str) -> str:
         return
     # TODO: implementar la lógica para generar el reloj de arena en ASCII
     # Parte superior
-    for i in range(n):
-        print(" " * i + s * (2*(n-i)-1))
+    for i in range(m):
+        print(" " * i + s * (2*(m-i)-1))
     
     # Parte inferior
-    for i in range(1, n):
-        print(" " * (n-i-1) + s * (2*i+1))
+    for i in range(1, m):
+        print(" " * (m-i-1) + s * (2*i+1))
     pass
